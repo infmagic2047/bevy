@@ -26,7 +26,7 @@ rodio = { version = "0.15", default-features = false, features = ["wasm-bindgen"
 
 [dev-dependencies]
 # bevy
-bevy_internal = { path = "../bevy_internal", version = "0.8.0-dev" }
+bevy_internal = { path = "../bevy_internal", version = "0.8.0" }
 
 [features]
 mp3 = ["rodio/mp3"]
