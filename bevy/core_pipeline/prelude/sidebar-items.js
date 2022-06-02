@@ -1,1 +1,1 @@
-initSidebarItems({"struct":[["ClearColor","When used as a resource, sets the color that is used to clear the screen between frames."]]});
+initSidebarItems({"struct":[["Camera2d",""],["Camera2dBundle",""],["Camera3d",""],["Camera3dBundle",""],["ClearColor","When used as a resource, sets the color that is used to clear the screen between frames."]]});
