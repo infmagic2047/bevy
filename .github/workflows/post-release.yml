@@ -21,9 +21,10 @@ jobs:
 
       - name: Setup post-release version bump
         run: |
-          # https://github.com/actions/checkout/issues/13
+          # Set the commit author to the github-actions bot. See discussion here for more information:
+          # https://github.com/actions/checkout/issues/13#issuecomment-724415212
           # https://github.community/t/github-actions-bot-email-address/17204/6
-          git config user.name 'github-actions[bot]'
+          git config user.name 'Bevy Auto Releaser'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           # Read the current version from Cargo.toml
           current_version=$(cargo metadata --format-version 1 --no-deps | \
